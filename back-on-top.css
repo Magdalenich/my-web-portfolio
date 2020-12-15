@@ -33,6 +33,13 @@
   margin: 0;
 }
 
+@media (max-width: 992px) {
+  .mbtn {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 4.25rem;
+  }
+}
 
 /*
 <div class=btn-position>
