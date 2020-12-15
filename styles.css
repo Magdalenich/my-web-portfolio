@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+#girl {
+    width: 100%;
+    /*margin-bottom: 6rem;*/
+}
+
+nav {
+    margin-top: 1rem;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    right: 2rem;
+
+    display: flex;
+    width: 28%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+
+    margin: auto
+}
+
+nav a:hover {
+    color: #FF5722;
+}
+
+/* ---------------------------------------------------- intro ---------------------------------------------------- */
+.intro {
+    top: 7rem;
+    width: 63%;
+    position: absolute;
+    font-family: 'Itim', cursive;
+}
+
+ul {
+    list-style: none;
+}
+
+li h1 {
+    color: #FF5722;
+    font-size: 5.1rem;
+    margin-bottom: 0;
+}
+
+.friends {
+    color: white;
+    font-size: 2rem;
+}
+
+.about-me {
+    border-style: solid;
+    border-color: #FF5722;
+    border-radius: 2rem;
+    width: 6rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 3rem;
+}
+
+.about-me:hover {
+    background-color: red;
+}
+
+.about-me a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------- intro END ---------------------------------------------------- */
+
+main {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+/* ---------------------------------------------------- paragraph ABOUT ME ---------------------------------------------------- */
+#p-about-me {
+    height: 6rem;
+}
+
+.p-about-me,
+.images4,
+.flyer {
+    display: flex;
+}
+
+.images {
+    width: 50%;
+}
+
+#pink {
+    max-width: 100%;
+}
+
+.grey {
+    max-width: 25%;
+    position: absolute;
+    left: 10.5rem;
+    margin-top: 6rem;
+}
+
+.text {
+    width: 50%;
+    margin-left: 4rem;
+    padding: 4rem;
+}
+
+.text h1 {
+    color: #FF5722;
+    font-family: 'Itim', cursive;
+    margin-top: 0;
+}
+
+/* ---------------------------------------------------- paragraph PORTFOLIO ---------------------------------------------------- */
+#portfolio {
+    margin: 6rem 0;
+    width: 100%
+}
+
+#portfolio p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images4 {
+    max-width: 1098px;
+}
+
+.logos img {
+    max-width: 350px;
+}
+
+.flyer img {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+#pink2 {
+    max-width: 100%;
+    /*103.5%*/
+    margin-bottom: 6rem;
+}
+
+/* ---------------------------------------------------- Footer ---------------------------------------------------- */
+footer {
+    background-color: #f9e3c3;
+    height: 16rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h1 {
+    color: #FF5722;
+    font-family: 'Itim', cursive;
+    margin: 0 0 0 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.contact {
+    margin: 1.5rem 0 0 0;
+}
+
+.icons-text {
+    display: flex;
+    align-items: center;
+}
+
+.f-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.material-icons {
+    margin-right: 1rem;
+    vertical-align: sub;
+    padding: 0.8rem;
+}
+
+.polosa {
+    background-color: #f342ab;
+    display: flex;
+    justify-content: center;
+    color: white
+}
+
+/* ---------------------------------------------------- Media Querys ---------------------------------------------------- */
+
+@media (max-width: 1252px) {
+    .text p {
+        font-size: 1.5rem;
+    }
+}

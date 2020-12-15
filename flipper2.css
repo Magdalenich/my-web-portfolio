@@ -1,0 +1,73 @@
+.karte {
+  width: 350px;
+  height: 350px;
+  position: relative;
+}
+
+.vorderseite,
+.rueckseite {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  /*border-radius: 6px;*/
+  -webkit-transition: -webkit-transform 1s;
+  transition: transform 1s;
+}
+
+.rueckseite {
+  background-color: blueviolet;
+  color: wheat;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 350px;
+  -webkit-transform:
+    /*perspective(450px)*/
+    rotateY(-180deg);
+  transform:
+    /*perspective(450px)*/
+    rotateY(-180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.vorderseite {
+  /*border: 0.8em solid white;*/
+  -webkit-transform:
+    /*perspective(450px)*/
+    rotateY(0deg);
+  transform:
+    /*perspective(450px)*/
+    rotateY(0deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.karte:hover .rueckseite {
+  -webkit-transform:
+    /*perspective(450px)*/
+    rotateY(0deg);
+  transform:
+    /*perspective(450px)*/
+    rotateY(0deg);
+}
+
+.karte:hover .vorderseite {
+  -webkit-transform:
+    /*perspective(450px)*/
+    rotateY(180deg);
+  transform:
+    /*perspective(450px)*/
+    rotateY(180deg);
+}
+
+/*
+<div class="karte">
+  <div class="vorderseite">
+    Inhalt
+  </div>
+  <div class="rueckseite"> 
+    Inhalt
+  </div>
+</div> 
+*/
