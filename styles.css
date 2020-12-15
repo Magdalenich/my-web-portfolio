@@ -148,6 +148,7 @@ main {
 
 .flyer img {
     width: 50%;
+    height: 100%;
     margin-left: 2rem;
 }
 

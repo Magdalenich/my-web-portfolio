@@ -35,13 +35,16 @@
 
 @media (max-width: 992px) {
   .mbtn {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
     border-radius: 4.25rem;
   }
-}
 
-/*
+  .material-icons {
+    font-size: 2.2rem !important;
+  }
+
+  /*
 <div class=btn-position>
     <a href="#">
       <button type="button" class="mbtn">
